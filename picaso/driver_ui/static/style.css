@@ -164,7 +164,7 @@ main.home { max-width: none; padding: 16px 16px 64px; }
   transition: border-color 0.15s, background-color 0.15s;
 }
 .launch-links a:hover, .launch-links a:focus-visible { border-color: var(--accent); background: var(--info-bg); }
-.launch-links a > span[aria-hidden] { margin-left: auto; }
+.launch-links a > svg { margin-left: auto; margin-right: -2px; }
 .launch-resources { display: flex; flex-wrap: wrap; gap: 4px 20px; margin-top: 24px; color: var(--muted); font-size: 14px; }
 .launch-resources a { text-decoration: none; }
 .m3-card {
